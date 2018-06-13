@@ -1,0 +1,19 @@
+---
+---
+@import "font-awesome.min";
+@import "bootstrap.min";
+@import "llorix-one-companion";
+@import "llorix-one-lite";
+@import "cognify";
+
+.header {
+  background-image: url("{{ "/assets/images/team/Team.JPG" | relative_url }}");
+}
+
+.overlay-layer-wrap {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.archive-top .section-overlay-layer {
+  background: rgba(13, 60, 85, 0.6);
+}

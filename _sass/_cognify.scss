@@ -1,0 +1,179 @@
+$white: #fff;
+$black: #000;
+$logo-dark-blue: #000000;
+$logo-light-blue: #2E2E2E;
+
+.single-service h3 {
+	color: $logo-dark-blue;
+  margin-bottom: 15px;
+  padding-top: 5px;
+}
+
+.sticky-navigation {
+  min-height: 90px;
+  background-color: $logo-dark-blue;
+
+  @media (max-width: 580px) {
+    min-height: 70px;
+  }
+  
+  .main-navigation {
+    .primary-menu {
+      border-bottom: none;
+    }
+
+    a {
+      color: $white;
+    }
+
+    li {
+      transition: all ease 0.25s;
+      
+      &:hover {
+        background-color: rgba($logo-light-blue,0.2);
+      }
+    }
+
+    li a:hover,
+    li.current > a,
+    li:hover > a {
+      color: $logo-light-blue;
+    }
+    
+    @media (min-width: 768px) {
+      li a {
+        margin: 0;
+        padding: 36px 18px;
+      }
+    }
+  }
+
+  .navbar-toggle {
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    @media (max-width: 580px) {
+      padding-top: 17px;
+      padding-bottom: 17px;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .brief .section-overlay-layer {
+    padding: 40px 0;
+  }
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: $logo-light-blue;
+}
+
+.header-logo-wrap {
+  padding: 10px;
+
+  .logo {
+    height: 70px;
+    width: auto;
+
+    @media (max-width: 580px) {
+      height: 50px;
+    }
+  }
+}
+
+.logo {
+  width: 100px;
+}
+
+.dark-text {
+  color: $logo-dark-blue;
+}
+
+
+.standard-button-white {
+	border-color: $white;
+	color: $logo-light-blue;
+	background: rgba($white, 0.4);
+}
+
+.standard-button-white:hover {
+	border-color: $white;
+	color: $logo-light-blue;
+	background: $white;
+}
+
+.standard-button-white:focus {
+	color: $logo-light-blue;
+}
+
+.standard-button-white:active {
+	background: $white !important;
+}
+
+.colored-line-left,
+.colored-line-right,
+.colored-line {
+	background-color: $logo-light-blue;
+}
+
+.colored-text {
+	color: $logo-dark-blue;
+}
+
+.service-icon.colored-text {
+	color: $logo-light-blue;
+}
+
+.footer,
+.footer a {
+  background-color: $logo-dark-blue;
+}
+
+.footer a:hover {
+  color: $white;
+}
+
+a {
+  color: $logo-light-blue;
+}
+
+a:hover {
+  color: $logo-light-blue;
+}
+
+.contact-info .contact-links a:hover {
+	color: $logo-light-blue;
+}
+
+.team {
+  .colored-line-left,
+  .colored-line-right,
+  .colored-line {
+    background: $white;
+  }
+
+  .member-details-inner {
+    padding-top: 15px;
+    color: $logo-dark-blue;
+
+    & h5 {
+      color: $logo-dark-blue;
+    }
+  }
+
+  .team-member:hover .member-details {
+    background: rgba($white, 0.7);
+  }
+
+  .small-text {
+    &.email,
+    &.phone {
+      line-height: 20px;
+
+      a {
+        color: $logo-dark-blue;
+      }
+    }
+  }
+}

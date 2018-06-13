@@ -1,0 +1,83 @@
+---
+layout: home
+title: Home
+intro:
+  title: Dr. Peter Jesch
+  subtitle: Rechtsanwalts GmbH
+---
+<section class="services" id="willkommen" role="region" aria-label="Willkommen">
+  <div class="section-overlay-layer">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="dark-text">Willkommen</h2>
+
+<!--        <div class="image">
+          <img src="{{ "/assets/images/team/" | relative_url }}Team.JPG" alt="{{ member.name }}" width="70%">
+        </div> //-->
+        <div class="sub-heading">
+          <p>Wir legen großen Wert auf persönliche Betreuung und nehmen uns Zeit für ausführliche Beratungen in sämtlichen Rechtsbereichen. Unsere Kanzleistruktur ermöglicht uns schnell auf die Wünsche unserer Klienten zu reagieren. Diese schenken uns zu einem großen Teil bereits seit vielen Jahren das Vertrauen.</p>
+
+          <p>Wir bevorzugen bei rechtlichen Auseinandersetzungen grundsätzlich einvernehmliche Regelungen, sollten diese nicht möglich sein, verfolgen wir die Interessen unserer Klienten auch konsequent bei Gericht und Behörden.</p>
+
+          <p>Wir unterhalten Kontakte sowohl zu inländischen, aber auch ausländischen – insbesondere deutschen Kollegen. Unsere Kanzlei arbeitet ständig mit österreichischen Rechtsschutzversicherungen.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="services" id="tätigkeitsfelder" role="region" aria-label="Willkommen">
+  <div class="section-overlay-layer">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="dark-text">Tätigkeitsfelder</h2>
+
+        <div class="sub-heading">
+          Zivilrecht <br>
+          Vertragsrecht <br>
+          Schadenersatz- und Gewährleistungsrecht <br>
+          Verkehrs(unfalls)recht <br>
+          Baurecht <br>
+          Bauträgervertragsrecht <br>
+          Liegenschaftsverkehrsrecht <br>
+          Miet- und Wohnungseigentumsrecht <br>
+          Nachbarrecht <br>
+          Familien- und Erbrecht <br>
+          Arzthaftungsrecht <br>
+          Finanzstrafrecht <br>
+          Gesellschaftsrecht <br>
+          Arbeitsrecht <br>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="team" id="team" role="region" aria-label="Team" style="background-color:black">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="dark-text">Team</h2>
+      </div>
+
+      <div class="row team-member-wrap">
+        {% for member in site.data.team %}
+        <div class="col-md-3 team-member-box">
+          <div class="team-member border-bottom-hover">
+            <div class="member-pic">
+              <img src="{{ "/assets/images/team/" | relative_url }}{{ member.name | slugify }}.png" alt="{{ member.name }}">
+            </div>
+            <div class="member-details">
+              <div class="member-details-inner">
+                <h5 class="colored-text">{{ member.name }}</h5>
+                <div class="small-text">{{ member.jobtitle }}</div>
+                <div class="small-text email"><a href="mailto:{{member.email}}">✉ {{ member.email }}</a></div>
+                {% if member.phone %}
+                <div class="small-text phone"><a href="tel:{{member.phone}}">✆ {{ member.phone }}</a></div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
