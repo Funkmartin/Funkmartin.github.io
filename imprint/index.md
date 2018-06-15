@@ -15,22 +15,12 @@ Telefon: [{{ site.company.phone }}](tel:{{ site.company.phone }})<br>
 Fax: [{{ site.company.fax }}](tel:{{ site.company.fax }})<br>
 E-Mail: [{{ site.company.email }}](mailto:{{ site.company.email }})
 
-Umsatzsteuer-Identifikationsnummer: <br>
-{{ site.company.imprint.uid }}
-
-Zuständige Aufsichtsbehörde: <br>
-Rechtsanwaltskammer Salzburg
-
-Anwendbare Rechtsvorschriften: <br>
-RAO, RL-BA, DSt, RATG, AHK abrufbar unter [www.oerak.at](http://www.oerak.at){:target="_blank"} <br>
-
 Unternehmensgegenstand: <br>
 Ausübung der Rechtsanwaltschaft
 
-Erreichbarkeit: <br>
-Linie 1, 8, 10, 22, 23; Haltestellte Reichenhaller Straße <br>
-Parkmöglichkeit an der Rückseite des Hauses Reichenhaller Straße 5
+{{ site.company.imprint.firmensitz }}<br>
+{{ site.company.imprint.firmennummer }} / {{ site.company.imprint.gerichtsstand }}<br>
+UID {{ site.company.imprint.uid }}
 
-Bankverbindung: <br>
-IBAN: AT10 3501 8000 0005 0385 <br>
-BIC: RVSAAT2S018
+Anwendbare Rechtsvorschriften: <br>
+RAO, RL-BA, DSt, RATG, AHK abrufbar unter [www.oerak.at](http://www.oerak.at){:target="_blank"} <br>
