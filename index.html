@@ -9,11 +9,9 @@ intro:
   <div class="section-overlay-layer">
     <div class="container">
       <div class="section-header">
-        <h2 class="dark-text">Willkommen</h2>
+        <h2 class="dark-text">Willkommen in der Dr. Jesch Rechtsanwalts GmbH</h2>
+        <div class="colored-line"></div>
 
-<!--        <div class="image">
-          <img src="{{ "/assets/images/team/" | relative_url }}Team.JPG" alt="{{ member.name }}" width="70%">
-        </div> //-->
         <div class="sub-heading">
           <p>Wir legen großen Wert auf persönliche Betreuung und nehmen uns Zeit für ausführliche Beratungen in sämtlichen Rechtsbereichen. Unsere Kanzleistruktur ermöglicht uns schnell auf die Wünsche unserer Klienten zu reagieren. Diese schenken uns zu einem großen Teil bereits seit vielen Jahren das Vertrauen.</p>
 
@@ -21,16 +19,19 @@ intro:
 
           <p>Wir unterhalten Kontakte sowohl zu inländischen, aber auch ausländischen – insbesondere deutschen Kollegen. Unsere Kanzlei arbeitet ständig mit österreichischen Rechtsschutzversicherungen.</p>
         </div>
+        <!-- <div class="image">
+          <img src="{{ "/assets/images/team/" | relative_url }}Team.JPG" alt="{{ member.name }}" width="70%">
+        </div> -->
       </div>
     </div>
   </div>
 </section>
-<section class="services" id="tätigkeitsfelder" role="region" aria-label="Willkommen">
+<section class="services" id="tätigkeitsfelder" role="region" aria-label="Tätigkeitsfelder" >
   <div class="section-overlay-layer">
     <div class="container">
       <div class="section-header">
         <h2 class="dark-text">Tätigkeitsfelder</h2>
-
+        <div class="colored-line"></div>
         <div class="sub-heading">
           Zivilrecht <br>
           Vertragsrecht <br>
@@ -46,17 +47,22 @@ intro:
           Finanzstrafrecht <br>
           Gesellschaftsrecht <br>
           Arbeitsrecht <br>
+          Grundbuch- und Firmenbuchabfragen <br>
+          Forderungsbetreibung <br>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="team" id="team" role="region" aria-label="Team" style="background-color:black">
+<section class="team" id="team" role="region" aria-label="Team" style="background-image:url({{ "/assets/images/team.jpg" | relative_url }});">
+  <div class="section-overlay-layer">
     <div class="container">
       <div class="section-header">
-        <h2 class="dark-text">Team</h2>
+        <h2 class="dark-text">Unser Team</h2>
+        <div class="colored-line"></div>
+        <div class="sub-heading">
+          Einzeiler. </div>
       </div>
-
       <div class="row team-member-wrap">
         {% for member in site.data.team %}
         <div class="col-md-3 team-member-box">
