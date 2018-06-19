@@ -6,6 +6,7 @@ permalink: /imprint/
 
 Allgemeine Informationspflicht gemäß § 5 E-Commerce-Gesetz (ECG) und Offenlegungspflicht nach/gemäß § 25 Mediengesetz:
 
+{{ site.company.imprint.ceo }}<br>
 {{ site.company.imprint.name }}<br>
 {{ site.company.imprint.address.street }}<br>
 {{ site.company.imprint.address.zip }} {{ site.company.imprint.address.city }}<br>

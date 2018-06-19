@@ -3,9 +3,6 @@ layout: page
 title: Datenschutz
 permalink: /datenschutz/
 ---
-Vollmacht: <br>
-[Vollmacht mit Datenschutzerklärung.pdf zum Download]({{ "/assets/pdf/110618 Vollmachtsformular PETER JESCH mit Datenschutzerklärung.pdf"| absolute_url }}){:target="_blank"}
-
 
 Allgemeine Auftragsbedingungen: <br>
 Die Dienstleistungen der Dr. Peter Jesch Rechtsanwalts GmbH werden auf Grundlage der vom Österreichischen Rechtsanwaltskammertag ausgearbeiteten Allgemeinen Auftragsbedingungen für Rechtsanwälte erbracht. Diese finden Sie unter nachstehendem Link: <br>
