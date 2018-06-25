@@ -32,7 +32,8 @@ company:
       country: Österreich
     firmensitz: Sitz Salzburg
     firmennummer: FN 45282t
-    gerichtsstand: Rechtsanwaltskammer Salzburg
+    gerichtsstand: Landesgericht Salzburg
+    aufsichtsbehoerde: Rechtsanwaltskammer Salzburg
     uid: ATU34646005
 description: >
   Unsere Mission: Ihre Wertschöpfung durch selbst-lernende,
