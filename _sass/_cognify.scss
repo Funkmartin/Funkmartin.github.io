@@ -1,45 +1,47 @@
 $white: #fff;
+$logo-gray: #a9a9a9;
+$logo-green: #bac496;
 $black: #000;
 $logo-dark-blue: #232e40;
 $logo-light-blue: #00abc4;
 
 .single-service h3 {
-	color: $logo-dark-blue;
+	color: $black;
   margin-bottom: 15px;
   padding-top: 5px;
 }
 
 .sticky-navigation {
   min-height: 90px;
-  background-color: $logo-dark-blue;
+  background-color: $white;
 
   @media (max-width: 580px) {
     min-height: 70px;
   }
-  
+
   .main-navigation {
     .primary-menu {
       border-bottom: none;
     }
 
     a {
-      color: $white;
+      color: $logo-gray;
     }
 
     li {
       transition: all ease 0.25s;
-      
+
       &:hover {
-        background-color: rgba($logo-light-blue,0.2);
+        background-color: rgba($logo-green,0.2);
       }
     }
 
     li a:hover,
     li.current > a,
     li:hover > a {
-      color: $logo-light-blue;
+      color: $logo-green;
     }
-    
+
     @media (min-width: 768px) {
       li a {
         margin: 0;
@@ -66,45 +68,47 @@ $logo-light-blue: #00abc4;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: $logo-light-blue;
+  background-color: $logo-gray;
 }
 
 .header-logo-wrap {
-  padding: 10px;
+	padding-top: 27px;
+	padding-bottom: 27px;
 
   .logo {
-    height: 70px;
+    height: 35px;
     width: auto;
 
+
     @media (max-width: 580px) {
-      height: 50px;
+      height: 35px;
     }
   }
 }
 
 .logo {
-  width: 100px;
+  width: 80px;
 }
 
 .dark-text {
-  color: $logo-dark-blue;
+  color: $logo-gray;
 }
 
 
 .standard-button-white {
 	border-color: $white;
-	color: $logo-light-blue;
+	color: $logo-green;
 	background: rgba($white, 0.4);
 }
 
 .standard-button-white:hover {
 	border-color: $white;
-	color: $logo-light-blue;
+	color: $logo-green;
 	background: $white;
 }
 
 .standard-button-white:focus {
-	color: $logo-light-blue;
+	color: $logo-green;
 }
 
 .standard-button-white:active {
@@ -114,36 +118,37 @@ $logo-light-blue: #00abc4;
 .colored-line-left,
 .colored-line-right,
 .colored-line {
-	background-color: $logo-light-blue;
+	background-color: $logo-green;
 }
 
 .colored-text {
-	color: $logo-dark-blue;
+	color: $black;
 }
 
 .service-icon.colored-text {
-	color: $logo-light-blue;
+	color: $logo-green;
 }
 
 .footer,
 .footer a {
-  background-color: $logo-dark-blue;
+  background-color: $white;
+	color: $logo-gray;
 }
 
 .footer a:hover {
-  color: $white;
+  color: $logo-green;
 }
 
 a {
-  color: $logo-light-blue;
+  color: $black;
 }
 
 a:hover {
-  color: $logo-light-blue;
+  color: $logo-green;
 }
 
 .contact-info .contact-links a:hover {
-	color: $logo-light-blue;
+	color: $logo-green;
 }
 
 .team {
@@ -155,10 +160,10 @@ a:hover {
 
   .member-details-inner {
     padding-top: 15px;
-    color: $logo-dark-blue;
+    color: $black;
 
     & h5 {
-      color: $logo-dark-blue;
+      color: $black;
     }
   }
 
@@ -172,7 +177,7 @@ a:hover {
       line-height: 20px;
 
       a {
-        color: $logo-dark-blue;
+        color: $black;
       }
     }
   }
