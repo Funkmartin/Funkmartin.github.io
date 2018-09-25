@@ -1,12 +1,13 @@
 $white: #fff;
 $logo-gray: #a9a9a9;
+$text-gray: #313131;
 $logo-green: #bac496;
 $black: #000;
 $logo-dark-blue: #232e40;
 $logo-light-blue: #00abc4;
 
 .single-service h3 {
-	color: $black;
+	color: $text-gray;
   margin-bottom: 15px;
   padding-top: 5px;
 }
@@ -122,7 +123,7 @@ $logo-light-blue: #00abc4;
 }
 
 .colored-text {
-	color: $black;
+	color: $text-gray;
 }
 
 .service-icon.colored-text {
@@ -140,7 +141,7 @@ $logo-light-blue: #00abc4;
 }
 
 a {
-  color: $black;
+  color: $text-gray;
 }
 
 a:hover {
@@ -160,10 +161,10 @@ a:hover {
 
   .member-details-inner {
     padding-top: 15px;
-    color: $black;
+    color: $text-gray;
 
     & h5 {
-      color: $black;
+      color: $text-gray;
     }
   }
 
@@ -177,8 +178,11 @@ a:hover {
       line-height: 20px;
 
       a {
-        color: $black;
+        color: $text-gray;
       }
+			// a:hover {
+			//   color: $logo-gray;
+			// }
     }
   }
 }
