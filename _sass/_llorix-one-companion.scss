@@ -156,9 +156,9 @@
     position: relative;
 }
 
-.testimonials-box .feedback:hover {
-  border-bottom-color: #f16c20;
-}
+//.testimonials-box .feedback:hover {
+  //border-bottom-color: #f16c20;
+//}
 
 .galcolumn .testimonials-box {
 	width: 100%;
@@ -208,6 +208,9 @@
 }
 
 .team-member {
+	border: solid;
+	border-color: #bac496;
+	border-width: 3px;
 	margin-bottom: 25px;
 	position: relative;
 	overflow: hidden;
@@ -248,7 +251,7 @@
 }
 
 .member-pic {
-	border: none;
+	border:none;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
@@ -309,7 +312,7 @@
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
-	background: rgba(241,108,32,0.7);
+	background: rgba(255,255,255,0.7);
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {

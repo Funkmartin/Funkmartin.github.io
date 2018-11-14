@@ -5,6 +5,7 @@ $logo-green: #bac496;
 $black: #000;
 $logo-dark-blue: #232e40;
 $logo-light-blue: #00abc4;
+$dark-green: #909f59;
 
 .single-service h3 {
 	color: $text-gray;
@@ -137,7 +138,7 @@ $logo-light-blue: #00abc4;
 }
 
 .footer a:hover {
-  color: $logo-green;
+  color: $dark-green;
 }
 
 a {
@@ -145,12 +146,27 @@ a {
 }
 
 a:hover {
-  color: $logo-green;
+  color: $dark-green;
 }
 
 .contact-info .contact-links a:hover {
-	color: $logo-green;
+	color: $dark-green;
 }
+
+// remove when working with image again
+.small-text {
+    &.email,
+    &.phone {
+      line-height: 20px;
+
+      a {
+        color: $text-gray;
+      }
+	// a:hover {
+	//   color: $logo-gray;
+	// }
+    }
+  }
 
 .team {
   .colored-line-left,
@@ -180,9 +196,9 @@ a:hover {
       a {
         color: $text-gray;
       }
-			// a:hover {
-			//   color: $logo-gray;
-			// }
+	// a:hover {
+	//   color: $logo-gray;
+	// }
     }
   }
 }

@@ -34,29 +34,29 @@ intro:
         <div class="colored-line"></div>
         <div class="sub-heading">
           Zivilrecht <br>
-          Vertragsrecht <br>
           Schadenersatz- und Gewährleistungsrecht <br>
           Familien- und Erbrecht <br>
-          Forderungsbetreibung <br>
-          Verkehrs(unfalls)recht <br>
           Wirtschaftsrecht <br>
-          Versicherungsrecht <br>
           Immobilienrecht <br>
           Baurecht <br>
           Bauträgervertragsrecht <br>
           Liegenschaftsverkehrsrecht <br>
           Miet- und Wohnungseigentumsrecht <br>
-          Nachbarrecht <br>
+          Vertragserrichtung und Vertragsprüfung <br>
           Arzthaftungsrecht <br>
           Finanzstrafrecht <br>
+          Versicherungsrecht <br>
+          Verkehrs(unfalls)recht <br>
+          Vereinsrecht <br>
           Arbeitsrecht <br>
+          Forderungsbetreibung <br>
           Grundbuch- und Firmenbuchabfragen <br>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="team" id="team" role="region" aria-label="Team" style="background-image:url({{ "/assets/images/wolfgangsee.JPG" | relative_url }});">
+<section class="services" id="team" role="region" aria-label="Team">
   <div class="section-overlay-layer">
     <div class="container">
       <div class="section-header">
@@ -66,15 +66,15 @@ intro:
               </div>
       <div class="row team-member-wrap">
         {% for member in site.data.team %}
-        <div class="col-md-3 team-member-box">
-          <div class="team-member border-bottom-hover">
+        <div class="team-member-box">
+          <div class="team-member">
             <div class="member-pic">
               <img src="{{ "/assets/images/team/" | relative_url }}{{ member.name | slugify }}.png" alt="{{ member.name }}">
             </div>
             <div class="member-details">
               <div class="member-details-inner">
-                <h5 class="colored-text">{{ member.name }}</h5>
-                <div class="small-text">{{ member.jobtitle }}</div>
+                <h5 style="color:#313131">{{ member.name }}</h5>
+                <div style="color:#313131">{{ member.jobtitle }}</div>
                 <div class="small-text email"><a href="mailto:{{member.email}}">✉ {{ member.email }}</a></div>
                 {% if member.phone %}
                 <div class="small-text phone"><a href="tel:{{member.phone}}">✆ {{ member.phone }}</a></div>
