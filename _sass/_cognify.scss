@@ -6,6 +6,7 @@ $black: #000;
 $logo-dark-blue: #232e40;
 $logo-light-blue: #00abc4;
 $dark-green: #909f59;
+$darker-green: #79864b;
 
 .single-service h3 {
 	color: $text-gray;
@@ -142,11 +143,11 @@ $dark-green: #909f59;
 }
 
 a {
-  color: $text-gray;
+  color: $darker-green;
 }
 
 a:hover {
-  color: $dark-green;
+  color: $darker-green;
 }
 
 .contact-info .contact-links a:hover {
