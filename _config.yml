@@ -36,9 +36,7 @@ company:
     aufsichtsbehoerde: Rechtsanwaltskammer Salzburg
     uid: ATU34646005
 description: >
-  Unsere Mission: Ihre Wertschöpfung durch selbst-lernende,
-  daten-getriebene Machine Learning Algorithmen zur vollen
-  Entfaltung zu bringen!
+  Wir sind für Sie da!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
