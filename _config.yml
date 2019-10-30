@@ -23,15 +23,15 @@ company:
   phone: + 43 662 848583
   fax: +43 662 848583-20
   imprint:
-    ceo: "Geschäftsführer: Dr. Peter Jesch"
+    ceo: Rechtsanwalt Dr. Peter Jesch
     name: Dr. Peter Jesch Rechtsanwalts GmbH
     address:
       street: Reichenhaller Straße 5
       zip: 5020
       city: Salzburg
       country: Österreich
-    firmensitz: Sitz Salzburg
-    firmennummer: FN 45282t
+#    firmensitz: Sitz Salzburg
+#    firmennummer: FN 45282t
     gerichtsstand: Landesgericht Salzburg
     aufsichtsbehoerde: Rechtsanwaltskammer Salzburg
     uid: ATU34646005
