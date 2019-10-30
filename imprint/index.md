@@ -6,7 +6,6 @@ permalink: /imprint/
 
 **Allgemeine Informationspflicht gemäß § 5 E-Commerce-Gesetz (ECG) und Offenlegungspflicht gemäß § 25 Mediengesetz:**
 
-Für diese Website verantwortlicher Herausgeber: <br>
 {{ site.company.imprint.ceo }}<br>
 {{ site.company.imprint.address.street }}<br>
 {{ site.company.imprint.address.zip }} {{ site.company.imprint.address.city }}<br>
@@ -18,7 +17,6 @@ E-Mail: [{{ site.company.email }}](mailto:{{ site.company.email }})
 
 Unternehmensgegenstand: Ausübung der Rechtsanwaltschaft einschließlich der dazu erforderlichen Hilfstätigkeiten
 
-{{ site.company.imprint.gerichtsstand }}<br>
 UID {{ site.company.imprint.uid }}
 
 Kammerzugehörigkeit: {{ site.company.imprint.aufsichtsbehoerde }} <br>
