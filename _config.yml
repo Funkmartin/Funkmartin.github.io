@@ -18,15 +18,15 @@ subtitle: Rechtsanwalts GmbH
 lang: de-AT
 company:
   email: office@jesch.law
-  location: Reichenhaller Straße 5, 5020 Salzburg
-  location-link: https://goo.gl/maps/FGfPwZ75vKB2
+  location: Moosstraße 37, 5020 Salzburg
+  location-link: https://goo.gl/maps/kpbCWj2NMQFwj3p6A # https://stackoverflow.com/a/39341021
   phone: + 43 662 848583
   fax: +43 662 848583-20
   imprint:
     ceo: Rechtsanwalt Dr. Peter Jesch
     name: Dr. Peter Jesch Rechtsanwalts GmbH
     address:
-      street: Reichenhaller Straße 5
+      street: Moosstraße 37
       zip: 5020
       city: Salzburg
       country: Österreich
@@ -42,8 +42,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 google:
   site-verification: q_gqTtu5Y0hW89Edt9yQAoVefhlrAcluCtcfGSNdiyM
-  maps:
-    embed-link: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2680.1340751364023!2d13.033992751438218!3d47.79823668261059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4776906636c6c52f%3A0x81930bb3ecfa9d59!2sReichenhaller+Str.+5%2C+5020+Salzburg!5e0!3m2!1sde!2sat!4v1528876988689
+  maps: # https://stackoverflow.com/a/39341021
+    embed-link: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2680.6433222690134!2d13.02536561563685!3d47.78836387919713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47769045046a7e51%3A0x11a7f22f7ba16dfe!2sMoosstra%C3%9Fe%2037%2C%205020%20Salzburg!5e0!3m2!1sde!2sat!4v1596547649293!5m2!1sde!2sat
 
 # Build settings
 markdown: kramdown
